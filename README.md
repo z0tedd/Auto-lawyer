@@ -116,7 +116,7 @@ KnowledgeBase/
 
 ## Лицензия
 
-MIT License. Подробнее см. в файле `LICENSE`.
+Apache License 2.0 .  Подробнее см. в файле `LICENSE`.
 
 ---
 
