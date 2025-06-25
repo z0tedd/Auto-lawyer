@@ -1,6 +1,6 @@
 import os
 import models.bm25_response_model as model
-import metrics  # Import the metrics module
+import metrics.metrics as metrics  # Import the metrics module
 import tree.tree_builder as tree_builder
 
 # Build the decision tree

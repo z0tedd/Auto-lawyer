@@ -28,7 +28,7 @@ def benchmark():
     start_time = time.time()
 
     questions_pull = []
-    with open("questions.txt", "r", encoding="utf-8") as file:
+    with open("metrics/questions.txt", "r", encoding="utf-8") as file:
         content = file.readlines()
         for line in content:
             questions_pull.append(line.strip().split("|")[1])
