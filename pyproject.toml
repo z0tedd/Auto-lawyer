@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "2"
+version = "0.1.0"
+description = ""
+authors = ["z0tedd <z0tedd@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "pymorphy3"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pymorphy3 = "^2.0.3"
+nltk = "^3.9.1"
+numpy = "^2.2.3"
+scikit-learn = "^1.6.1"
+sentence-transformers = "^3.4.1"
+transformers = "^4.49.0"
+rank-bm25 = "^0.2.2"
+pymorphy2 = "^0.9.1"
+python-telegram-bot = "^22.1"
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
