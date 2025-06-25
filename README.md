@@ -4,10 +4,17 @@
 
 ---
 
+## Демонстрация работы тг-бота
+
+- [Видео: Демонстрация работы](Demonstration.mp4)
+
+---
+
 ## Структура проекта
 
 ```
 Auto-lawyer/
+├── Demonstration.mp4           # Демонстрация работы тг-бота
 ├── README.md
 ├── LICENSE.md
 ├── benchmark_tests.py          # Тестирование моделей по скорости
@@ -44,7 +51,9 @@ Auto-lawyer/
 ```bash
 poetry install
 ```
-или 
+
+или
+
 ```bash
 poetry update
 ```
@@ -116,7 +125,7 @@ KnowledgeBase/
 
 ## Лицензия
 
-Apache License 2.0 .  Подробнее см. в файле `LICENSE`.
+Apache License 2.0 . Подробнее см. в файле `LICENSE`.
 
 ---
 
