@@ -9,7 +9,7 @@ decision_tree = tree_builder.build_decision_tree("./KnowledgeBase")
 response_model = model.ResponseModel(decision_tree)
 
 # Токен вашего бота (вставьте свой)
-TELEGRAM_BOT_TOKEN = "7738868585:AAET93TDRMjaLlJjVotIYYXCwjB-e61xKlo"
+TELEGRAM_BOT_TOKEN = "7738868585:AAET93TDRMjaLlJjVotIYYXCwjB-e61xKlo" # Это нерабочий токен
 
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
